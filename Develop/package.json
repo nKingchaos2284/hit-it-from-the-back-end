@@ -1,0 +1,22 @@
+{
+  "name": "hit-it-from-the-back-end",
+  "version": "1.0.0",
+  "description": "back-end web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nKingchaos2284/hit-it-from-the-back-end.git"
+  },
+  "author": "JM Cabrera Elias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nKingchaos2284/hit-it-from-the-back-end/issues"
+  },
+  "homepage": "https://github.com/nKingchaos2284/hit-it-from-the-back-end#readme",
+  "dependencies": {
+    "sequelize": "^6.31.0"
+  }
+}
