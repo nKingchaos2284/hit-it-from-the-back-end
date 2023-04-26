@@ -1,17 +1,17 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mysql2": "^3.2.3",
+    "expressjs": "^1.0.1",
+    "mysql2": "^3.2.4",
+    "node": "^19.8.1",
+    "nodejs": "^0.0.0",
     "sequelize": "^6.31.0"
   },
   "name": "hit-it-from-the-back-end",
   "description": "UC Davis coding bootcamp Challenge 13 -- back end shop",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nKingchaos2284/hit-it-from-the-back-end.git"
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/nKingchaos2284/hit-it-from-the-back-end/issues"
   },
-  "homepage": "https://github.com/nKingchaos2284/hit-it-from-the-back-end#readme"
+  "homepage": "https://github.com/nKingchaos2284/hit-it-from-the-back-end#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  }
 }
